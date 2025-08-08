@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info
+dist/
+build/
+
+# Node
+node_modules/
+package-lock.json
+yarn.lock
+
+# Frappe build artifacts (if any)
+*.min.js
+*.min.css
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
+
+# Don’t track compiled assets from bench build
+phin_cafe/public/js/*.min.js
+phin_cafe/public/css/*.min.css
